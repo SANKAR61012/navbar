@@ -48,5 +48,20 @@ nav{
     .nav-links{
         display: none;
         flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links.active{
+        display: flex;
+    }
+    .nav-links li{
+        padding: 15px;
+    }
+    .hamburger{
+        display: block;
     }
 }

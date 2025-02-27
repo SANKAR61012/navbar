@@ -19,13 +19,19 @@
             <li><a href="#">Products</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-        </nav>
-        <div class="hamburger">
+        <div class="hamburger" onclick="toggle()">
             <span class="material-symbols-outlined">
                 menu
                 </span>
         </div>
+        </nav>
     </header>
+    
+    <script>
+        function toggle(){
+            document.querySelector(".nav-links").classList.toggle("active")
+        }
+    </script>
     {% endblock %}
 </body>
-</html>
+</html>fun
